@@ -1,0 +1,203 @@
+.loginContainer{
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 30px;
+}
+
+.loginContainer form{
+    width: 100%;
+}
+.loginHeader{
+    width: 100%;
+}
+.loginHeader h1{
+    text-align: center;
+    font-size: 75px;
+    color: blueviolet;
+    text-shadow: 2px 4px 2px #000;
+}
+
+
+.loginContainer input[type="email"],input[type="password"]{
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid skyblue;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10dp;
+    display: block;
+
+}
+
+.submit{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.loginContainer input[type="submit"]{
+    width: 50%;
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid skyblue;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10dp;
+    background-color: blueviolet;
+    color:#fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.loginContainer input[type="submit"]:hover{
+    cursor: pointer;
+}
+.registerContainer{
+    width: 50%;
+    margin: 0 auto;
+}
+.registerHeader{
+
+}
+
+.registerHeader h1{
+    text-align: center;
+    font-size: 75px;
+    color: blueviolet;
+    text-shadow: 2px 4px 2px #000;
+}
+.registerBody{
+    width: 100%;
+    box-sizing: border-box;
+}
+.registerBody input[type="text"],input[type="email"]{
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid skyblue;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10dp;
+    display: block;
+}
+
+.registerFooter{
+
+}
+.genderDiv{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+
+}
+.radioDiv{
+    width: 80px;
+}
+.registerSubmit{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.registerSubmit input[type="submit"]{
+    width: 50%;
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid skyblue;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10dp;
+    background-color: blueviolet;
+    color:#fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.registerSubmit input[type="submit"]:hover{
+    cursor: pointer;
+}
+.link{
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.userPostContainer{
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 30px;
+  
+}
+.userPostContainer form{
+    width: 100%;
+    box-sizing: border-box;
+}
+.userPostContainer input[type="text"]{
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid skyblue;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10dp;
+    display: block;
+    font-size: 20px;
+    color: #000;
+}
+.userPostContainer input[type="submit"]{
+    width: 20%;
+    float:right;
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid skyblue;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10dp;
+    background-color: blueviolet;
+    color:#fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+.imageLabel{
+    width: 40px;
+    float: left;
+}
+.imageLabel img{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}
+.videoLabel{
+    width: 40px;
+    float: left;
+}
+.videoLabel img{
+    width: 40px;
+    height: 40px;
+    margin-top: -52px;
+    margin-left: 10px;
+}
+.userInputDetails{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.userInputDetails img{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+.statusText{
+    margin-top: -28px;
+    font-size: 18px;
+    color:"black";
+}

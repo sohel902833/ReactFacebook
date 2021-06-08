@@ -1,0 +1,131 @@
+.postContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-top: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.postHeader{
+    width: 100%;
+ 
+}
+.postHeader img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    float: left;
+}
+.postHeaderTop{
+    float: left;
+    margin-left: 10px;
+}
+.postHeaderTop h1{
+    font-size: 22px;
+    margin-top: -1px;   
+}
+.postHeaderTop p{
+    margin-top: -15px;
+}
+.postBody{
+    
+}
+.postBody img{
+    height: 400px;
+    width: 100%;
+    margin-right: 10px;
+}
+.postComment{
+    width: 100%;
+    box-sizing: border-box;
+}
+.postBody p{
+    font-size: 17px;
+    font-weight: bold;
+    color:#000;
+}
+
+.commentBoxInput{
+    width: 100%;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    box-sizing: border-box;
+    color: #000;
+}
+
+.likeContainer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.likeContainer > div{
+    width: 33.33%;
+    text-align: center;
+}
+.like:hover{
+    cursor: pointer;
+}
+.comment h1{
+    font-size: 24px;
+}
+.comment h1:hover{
+    cursor: pointer;
+}
+.share h1:hover{
+    cursor: pointer;
+}
+.share h1{
+    font-size: 24px;
+}
+.commentBoxSubmit{
+    width: 5%vw;
+    height: 40px;
+    background: coral;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+.commentItemContainer{
+    margin: 10px;
+   border: 2px solid #000;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 10px;
+    height: fit-content;
+
+}
+.commentItemTop img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    float: left;
+}
+.commentItemTop h1{
+    font-size: 18px;
+    margin-left: 5px;
+    float: left;
+    margin-top: 0px;
+}
+.commentItemBottom p{
+    font-size: 16px;
+    margin-left: 35px;
+    margin-bottom: -2px;
+    margin-top: -5px;
+}
+.videoController{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
